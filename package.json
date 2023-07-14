@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "belajar unitest nodejs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
-    
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -18,6 +23,8 @@
   },
   "homepage": "https://github.com/timusss0/unitTestJestjs#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
     "jest": "^29.6.1"
   }
 }

@@ -1,7 +1,7 @@
-test("test cum func", () => {
+test("test sum func", () => {
 
     const result = sum(1,2)
 
-     expect(1=result).toBe(3)
+     expect(result).toBe(3)
 
 })
