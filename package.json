@@ -1,0 +1,22 @@
+{
+  "name": "unitest-nodejs",
+  "version": "1.0.0",
+  "description": "belajar unitest nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timusss0/unitTestJestjs.git"
+  },
+  "author": "tia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timusss0/unitTestJestjs/issues"
+  },
+  "homepage": "https://github.com/timusss0/unitTestJestjs#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
